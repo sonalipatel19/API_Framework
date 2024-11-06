@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Suite" verbose="3">
+	
+	<listeners>
+		<listener class-name="com.qa.api.listeners.ExtentReportListeners"></listener>
+	</listeners>
+	
+ <!-- 	 <test name="Create User Test">
+		 
+		<classes>
+			<class name="com.qa.api.tests.CreateUserTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Get User Test">
+		
+		<classes>
+			<class name="com.qa.api.tests.GetUserTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="Update User Test">
+		
+		<classes>
+			<class name="com.qa.api.tests.UpdateUserTest"></class>
+		</classes>
+	</test>
+	
+	 <test name="Patch User Test">
+		 
+		<classes>
+			<class name="com.qa.api.tests.PatchUserTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Delete User Test">
+		
+		<classes>
+			<class name="com.qa.api.tests.DeleteUserTest"></class>
+		</classes>
+	</test>-->
+	
+	 <test name="Req Res API Test">
+		
+		<classes>
+			<class name="com.qa.reqres.tests.ReqResTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="Contacts API Test">
+		
+		<classes>
+			<class name="com.qa.contacts.tests.ContactsAPITest"></class>
+		</classes>
+	</test> 
+	
+	<test name="Products API Test">
+		
+		<classes>
+			<class name="com.qa.products.tests.ProductsAPITest"></class>
+		</classes>
+	</test> 
+	
+	
+	</suite>
