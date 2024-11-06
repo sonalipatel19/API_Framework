@@ -7,7 +7,7 @@
 		<listener class-name="com.qa.api.listeners.ExtentReportListeners"></listener>
 	</listeners>
 	
- <!-- 	 <test name="Create User Test">
+ 	 <test name="Create User Test">
 		 
 		<classes>
 			<class name="com.qa.api.tests.CreateUserTest"></class>
@@ -40,7 +40,7 @@
 		<classes>
 			<class name="com.qa.api.tests.DeleteUserTest"></class>
 		</classes>
-	</test>-->
+	</test>
 	
 	 <test name="Req Res API Test">
 		

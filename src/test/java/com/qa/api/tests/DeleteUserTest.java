@@ -15,7 +15,7 @@ import io.restassured.response.Response;
 public class DeleteUserTest extends BaseTest{
 	
 	@Test
-	public void patchUsersWithBuilderTest() {
+	public void deleteUsersWithBuilderTest() {
 		
 		//1. POST:
 		User user = User.builder()
